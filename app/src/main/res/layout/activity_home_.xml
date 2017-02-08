@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99a9a5a5"
+    android:padding="20dp"
+    tools:context="com.example.toshiba.demo.Home_Activity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/home"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/image_id"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/relative_id"
+        android:layout_below="@+id/image_id">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Live Preview"
+            android:textSize="20dp"
+            android:id="@+id/live_id"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_below="@id/relative_id"
+            ></View>
+
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="24dp"
+         android:id="@+id/secondrelative_id"
+         android:layout_below="@+id/relative_id">
+
+      <TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:text="Saved Photos"
+    android:textSize="20dp"
+    android:id="@+id/photo_id"
+    />
+      <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/arrow"
+    android:layout_alignParentRight="true"
+    />
+      </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff"
+        android:layout_below="@id/secondrelative_id"
+        ></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/thirdrelative_id"
+        android:layout_below="@+id/secondrelative_id">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="DeviceList"
+            android:textSize="20dp"
+            android:id="@+id/device_id"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff"
+        android:layout_below="@id/thirdrelative_id"
+        ></View>
+  </RelativeLayout>
+
+
+
+
+
+
